@@ -6,12 +6,11 @@
    background-size: cover;
    width:100%;
    height: 100%; min-height: 800px;
-
-  }
+ }
 nav
  {
   height:130px;
-}
+  }
 .logo
  {
    width:5.5em;
@@ -34,7 +33,7 @@ a.brand-logo
 {
   height: 33px;
 }
-.img-social
+img.img-social
 {
   margin: 1.5rem;
   border-radius: 1rem;
@@ -51,7 +50,7 @@ img.fotos2, img.fotos1
 .cuerpo
 {
   margin-top:82px;
- }
+}
  ul.right{margin-top: 1rem;}
  img.flotante
  {
@@ -65,40 +64,45 @@ div.comentario.row{margin-left: 10px;}
 p.black-text{text-align: justify;}
 div.chip{margin-top: 1rem;}
 .Autor{padding: 1.5rem;}
+
 @media screen and (max-width:420px)
 {
-.logo{width:5em;}
-a.btnSp.btn.btn-small
-  {
-    padding-right:10px;
-    padding-left: 10px;
-  }
-a.pequeña.btn.btn-small
-  {
+  .logo{width:5em;}
+  a.btnSp.btn.btn-small
+    {
+      padding-right:10px;
+      padding-left: 10px;
+    }
+  a.pequeña.btn.btn-small
+    {
     padding-right:9px;
     padding-left: 9px;
     margin-left: 1px;
     font-size: 5px;
-  }
-li.derecha{float: right;}
-h5.valign.center-align{font-size: 1.5rem; margin-top: 0px;}
-nav{height:150px;}
-.navbar-fixed{position:relative;}
+    }
+  li.derecha{float: right;}
+  h5.valign.center-align{font-size: 1.5rem; margin-top: 0px;}
+  nav{height:150px;}
+  .navbar-fixed{position:relative;}
 
-div.acuario.row{margin-left: 5px;margin-right: 5px;}
-div.comentario.row{margin-left: 5px;margin-right: 5px;}
+  div.acuario.row{margin-left: 5px;margin-right: 5px;}
+  div.comentario.row
+  {
+    margin-left: 5px;margin-right: 5px;
+  }
 }
 @media (min-width:336px) and (max-width:415px)
 {
    nav ul li{float:right;}
    img.flotante{width: 99%;}
-
 }
+
 @media (min-width:416px) and (max-width:420px)
 {
   .slogan{margin-top: 40px;}
   img.flotante{width: 99%;}
 }
+
 @media (min-width:421px) and (max-width:506px)
 { nav ul li{float:right;}
   div.acuario.row{margin-right: 10px;}
@@ -118,22 +122,23 @@ div.comentario.row{margin-right: 10px;}
 }
 @media (min-width:601px) and (max-width:975px)
 {
-  /*.btn-small{font-size: 16px;}*/
   div.acuario.row{margin-right: 10px;}
   div.comentario.row{margin-right: 10px;}
   nav ul li{float:right;}
 }
+
 @media (min-width:976px) and (max-width:993px)
 {
   div.acuario.row{margin-right: 10px;}
   div.comentario.row{margin-right: 10px;}
-
 }
+
 @media (min-width:993px) and (max-width:1299px)
 {
-  .slogan{margin-top: 30px;}
   
+  .slogan{margin-top: 30px;}
 }
+
  @media only screen and (min-width:1300px)
  {
    nav ul li{float: right;}
