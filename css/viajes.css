@@ -14,7 +14,7 @@ nav
 }
 .logo
  {
-   width:22%;
+   width:5.5em;
  }
 nav ul a.btn
   { margin-left: 0.3rem;
@@ -28,9 +28,10 @@ a.brand-logo
 {
   max-height: 180px;
 }
+
 .slogan
 {
-  height: 200px;
+  height: 33px;
 }
 .img-social
 {
@@ -58,6 +59,34 @@ img.fotos2, img.fotos1
    margin-top: 1.3rem;
    height: : 100px;
   }
+div.acuario.row{margin-left: 10px;}
+div.comentario.row{margin-left: 10px;}
   p.black-text{text-align: justify;}
   div.chip{margin-top: 1rem;}
   .Autor{padding: 1.5rem;}
+@media screen and (max-width:420px)
+{
+.logo{width:5em;}
+a.btnSp.btn.btn-small
+  {
+    padding-right:10px;
+    padding-left: 10px;
+  }
+a.pequeña.btn.btn-small
+  {
+    padding-right:9px;
+    padding-left: 9px;
+    margin-left: 1px;
+    font-size: 5px;
+  }
+li.derecha{float: right;}
+h5.valign.center-align{font-size: 1.5rem; margin-top: 0px;}
+nav
+ {height:150px;}
+ .navbar-fixed{position:relative;}
+ div.enviar.btn-flat{float: none;}
+ div.enviar.input-field{text-align: center;}
+ div.acuario.row{margin-left: 5px;margin-right: 5px;}
+ div.comentario.row{margin-left: 5px;margin-right: 5px;}
+
+}
