@@ -10,7 +10,7 @@
     <link href="css/viajes.css" type="text/css" rel="stylesheet"/>
     <title>Blog de viajes</title>
   </head>
-  <body>
+  <body class="blog-body">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
@@ -30,14 +30,11 @@
         <div class="col s1 pink lighten-4 gray-text">11</div>
         <div class="col s1 pink accent-1 black-text">12</div>
       </div> <!-- final del primer contenedor rejilla-->
-
-      <nav>
+      <div class="navbar-fixed">
+       <nav>
         <div class="nav-wrapper blue-grey ">
             <a class="brand-logo left">
               <img src="img/logoviajemos.svg"alt="logo" class="logo"/>
-
-
-
             </a>
 
             <ul class="right">
@@ -52,16 +49,72 @@
               </div>
             </div>
         </div><!--cierre de contenedor-->
+       </nav> <!--cierre de encabezado nav-->
+     </div>  <!--cierre de navbar-fixed-->
+      <div class=" col l2 push-l4"></div>
 
-      </nav> <!--cierre de encabezado nav-->
+        <div class="row cuerpo">
+          <div class="l12 col">
+              <div class="Rsocial col l1 center">
+                <a href=" # "><img class="img-social" src="img/instagram.png" title="Instagram"/></a>
+                <a href="#"><img class="img-social" src="img/twitter.svg" title="Twitter"/></a>
+                <a href="#"><img class="img-social" src="img/youtube.svg" title="youtube"/></a>
+                <a href="https://www.facebook.com/login.php"><img class="img-social" src="img/facebook.svg" title="facebook"/></a>
+                <a href="#"><img class="img-social" src="img/whatsapp.svg" title="whatsapp"/></a>
+              </div>
 
+              <div class="col l3">
+                <div class="card center">
+                  <img class="z-depth-5 fotos1 responsive-img"src="img/662400.jpg"alt="Puente" />
+                </div>
+                <div class="card center">
+                  <img class="z-depth-4 fotos1 responsive-img"src="img/863485.jpg"alt="templo"/>
+                </div>
+              </div>
 
+              <div class="col l5">
+                  <div class="card center">
+                    <img class="z-depth-3 central responsive-img"src="img/338450.jpg"alt="Torre" />
+                  </div>
+              </div>
+              <div class=" col l3">
+                <div class="card center">
+                  <img class="z-depth-2 fotos2 responsive-img"src="img/960638.jpg"alt="isla" />
+                </div>
+                <div class="card center">
+                  <img class="z-depth-1 fotos2 responsive-img"src="img/585390.jpg"alt="ciudad"/>
+                </div>
+                <div class="card center">
+                  <img class="z-depth-3 fotos2 responsive-img"src="img/592395.jpg"alt="montaña" />
+                </div>
+              </div>
 
-
-
-
-
-
+        </div>
+      </div>  <!-- cierre contenedor cuerpo -->
     </div> <!-- final del row padre -->
+
+    <div class="row">
+      <div class=" col l9">
+        <div class="row">
+          <div class="card valign-wrapper grey lighten-4 col l12">
+            <div class="col s4">
+              <img class="responsive-img" src="img/acuario.png" alt="Acuario"/>
+            </div>
+            <div class="col s8 ">
+              <p class="black-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div> <!-- cierre de segunda columna-->
+          </div> <!-- cierre de contenedor-->
+        </div><!-- cierre de englon-->
+      </div>
+      <div class=" col l3">
+        <div class="card center">
+          <img class="circle responsive-img"src="img/592395.jpg"alt="autor" />
+        </div>
+      </div>
+    </div> <!-- cierre contenedor segunda parte -->
   </body>
 </html>
