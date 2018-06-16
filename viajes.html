@@ -18,16 +18,16 @@
 
       <div class="row">
         <div class="col s1 pink darken-1 white-text">1</div>
-        <div class="col s1 pink lighten-1 gray-text">2</div>
+        <div class="col s1 pink lighten-1 grey-text">2</div>
         <div class="col s1 pink accent-4 black-text">3</div>
         <div class="col s1 pink darken-2 white-text">4</div>
-        <div class="col s1 pink lighten-2 gray-text">5</div>
+        <div class="col s1 pink lighten-2 grey-text">5</div>
         <div class="col s1 pink accent-3 black-text">6</div>
         <div class="col s1 pink darken-3 white-text">7</div>
-        <div class="col s1 pink lighten-3 gray-text">8</div>
+        <div class="col s1 pink lighten-3 grey-text">8</div>
         <div class="col s1 pink accent-2 black-text">9</div>
         <div class="col s1 pink darken-4 white-text">10</div>
-        <div class="col s1 pink lighten-4 gray-text">11</div>
+        <div class="col s1 pink lighten-4 grey-text">11</div>
         <div class="col s1 pink accent-1 black-text">12</div>
       </div> <!-- final del primer contenedor rejilla-->
       <div class="navbar-fixed">
@@ -94,27 +94,61 @@
     </div> <!-- final del row padre -->
 
     <div class="row">
-      <div class=" col l9">
-        <div class="row">
-          <div class="card valign-wrapper grey lighten-4 col l12">
-            <div class="col s4">
-              <img class="responsive-img" src="img/acuario.png" alt="Acuario"/>
+
+          <div class="acuario card  grey lighten-4 col l9">
+            <img class="flotante responsive-img" src="img/acuario.png" alt="Acuario"/>
+            <span class="card-title">El Acuario Michin</span></br>
+            <div class="chip">
+              <span>12 de febrero de 2016.</span>
+              <i class="material-icons"> calendar_today</i>
             </div>
-            <div class="col s8 ">
-              <p class="black-text">
+            <div class="chip">
+              <span>Guadalajara,Jalisco,México.</span>
+              <i class="material-icons ">location_on</i>
+            </div>
+            <p class="black-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div> <!-- cierre de contenedor card texto e imagen-->
+
+          <div class=" col l3">
+            <div class="Autor card  blue-grey lighten-5 center">
+              <img class="circle responsive-img"src="img/perfil.jpg"alt="autor" width="50%" />
+              <h3>Perfil del Autor</h3>
+              <hr>
+              <p class="black-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div> <!-- cierre de segunda columna-->
-          </div> <!-- cierre de contenedor-->
-        </div><!-- cierre de englon-->
-      </div>
-      <div class=" col l3">
-        <div class="card center">
-          <img class="circle responsive-img"src="img/592395.jpg"alt="autor" />
-        </div>
-      </div>
-    </div> <!-- cierre contenedor segunda parte -->
+            </div>
+          </div>
+    </div> <!-- cierre row contenedor segunda parte -->
+    <div class="row">
+      <div class="col l9 card-content amber lighten-4">
+        <span>Dejanos tu comentario</span>
+        <form>
+          <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input id="nombre" type="text" class="validate">
+              <label for="nombre">Nombre y Apellidos</label>
+          </div>
+          <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="email" data-success="correcto" data-error="Debes completar este campo">E-mail</label>
+          </div> <!--cierre de input-field-->
+          <div class="input-field col s6">
+              <textarea id="texto"  class="materialize-textarea"></textarea>
+              <label for="texto">texto</label>
+          </div>
+
+
+          <button class="btn-flat waves-effect waves-light blue-grey white-text right" type="submit" name="action"><i class="material-icons right">send</i></button>
+          <button class="btn-floating waves-effect waves-light blue-grey white-text right hide-on-med-and-up" type="submit" name="action"><i class="material-icons right">send</i></button>
+        </form>
+      </div>  <!-- cierre card de comentario -->
+    </div>   <!-- cierre row de comentario -->
+
   </body>
 </html>

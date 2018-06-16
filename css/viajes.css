@@ -6,6 +6,7 @@
    background-size: cover;
    width:100%;
    height: 100%; min-height: 800px;
+
   }
 nav
  {
@@ -33,10 +34,9 @@ a.brand-logo
 }
 .img-social
 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  width: 50%;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  width: 4rem;
 }
 img.central
 {
@@ -51,3 +51,13 @@ img.fotos2, img.fotos1
   margin-top:82px;
  }
  ul.right{margin-top: 1rem;}
+ img.flotante
+ {
+   float: left;
+   margin-right: 1rem;
+   margin-top: 1.3rem;
+   height: : 100px;
+  }
+  p.black-text{text-align: justify;}
+  div.chip{margin-top: 1rem;}
+  .Autor{padding: 1.5rem;}
